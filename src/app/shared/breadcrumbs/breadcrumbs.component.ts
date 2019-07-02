@@ -18,7 +18,7 @@ export class BreadcrumbsComponent implements OnInit {
 
     this.getDataRoute().subscribe(
       data => {
-        console.log(data);
+        //console.log(data);
         this.titulo = data.titulo;
 
         //con esta parte se muestra el titulo en el navegador.
@@ -33,8 +33,6 @@ export class BreadcrumbsComponent implements OnInit {
         this.meta.updateTag(metaTag);
 
       });
-
-      
 
    }
 
