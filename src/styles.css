@@ -37,3 +37,7 @@
 .oculto{
     display: none;
 }
+.adjust-card-title{
+    display: flex;
+    justify-content: space-between;
+}

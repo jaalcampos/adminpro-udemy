@@ -35,7 +35,7 @@ export class ModalUploadComponent implements OnInit {
       Swal.fire({
         type: 'error',
         title: 'Solo imagenes',
-        text: 'El archivo seleccionado no es una imagen.',
+        text: 'El archivo seleccionado no es una imagen.', 
       });
 
       this.imagenSubir = null;
