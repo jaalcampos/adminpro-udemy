@@ -14,7 +14,7 @@ export class ImagenPipe implements PipeTransform {
       return url + '/usuarios/xxx';
     }
 
-    if (imagen.indexOf('https') >= 0){
+    if (imagen.indexOf('https') >= 0){ 
       return imagen;
     }
 
